@@ -47,7 +47,7 @@ public class BallController : MonoBehaviour
             _dir = new Vector2(-_dir.x, newDirY).normalized;
             _rb2d.velocity = Vector2.zero;
             _rb2d.AddForce(_dir * _speed);
-            
+
         }
 
     }
